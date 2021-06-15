@@ -1,6 +1,6 @@
 [
     "^/directory/bad-url$ /directory/index.html [R=301,L]",
-    "^(.*)/README $1/README [R,L]",
+    "^(.*)/README $1/README.txt [R,L]",
     "^(.*)/Makefile $1/Makefile [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
